@@ -1,0 +1,499 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}body {
+    background: black;
+    color: #fff;
+    
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(as/main.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 10px 8%;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    ;
+}
+.logo{
+    width: 150px;
+    cursor: pointer;
+    
+}
+nav button{
+    border: 0;
+    outline: 0;
+    background: #db0001;
+    color: #fff;
+    padding: 7px 20px;
+    font-size: 15px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.drop-btn{
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid gray;
+    padding: 8px 11px;
+}
+.drop-btn img{
+    width: 8px;
+    margin-left: 12px;
+    margin-right: 6px;
+    
+}
+.header1{
+    position: absolute;
+    top: 30%;
+    left: 11%;
+    right: 11%;
+    
+    text-align: center;
+   
+}
+.header1 h1{
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    margin-block-start: 0.4em;
+    margin-block-end: 0.4em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    
+}.header1 h3{
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin: 1rem 0 0;
+    display: flex;
+    margin-block-start: 0.8em;
+    margin-block-end: 0.8em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.header1 p{
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin: 1rem 0 0;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.email{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    fill: currentcolor;
+    padding: 2px;
+    width: 50%;
+    -webkit-box-align: center;
+    display: inline-flex;
+    gap: 2px;
+    position: relative;
+    text-align: left;
+    
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+
+}
+
+.email input{
+    line-height: 1.5rem;
+    transition: color 250ms cubic-bezier(0.5, 0, 0.1, 1) 0s;
+    width: 100%;
+    color: white;
+    padding: 1.5rem 1rem 0.5rem;
+    background: transparent;
+    background-clip: padding-box;
+    border: 1px solid gray;
+    border-radius: 6px;
+    text-rendering: auto;
+    text-indent: 0px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    display: inline-block;
+    cursor: text;
+    font-size: 16px;
+    
+    
+}
+.email button{
+   background: red;
+   border: 0;
+   width: 290px;
+   outline: 0;
+   color: #fff;
+   font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;;
+   font-size: 24px;
+   font-weight: 600;
+   cursor: pointer;
+   border-radius: 5px;
+   margin-left: 2%;
+
+}.idk hr {
+    width: 100%;
+    height: 0.5rem;
+    position: absolute;
+    bottom: -0.5rem;
+    background-color: rgb(35,35,35);
+    border: 0px;
+}
+.feat {
+    padding: 50px 6%;
+    font-size: 22px;
+}
+.row{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 120px 0;
+}
+.text{ 
+    flex-basis: 42%;
+    margin-bottom: 15px;
+    font-family:  Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+.video-wrapper {
+    position: relative;
+  
+    width: auto;
+    padding-left: 10%;
+    height: 245px;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.feat h2{
+    font-size: 50px;
+    font-weight: 600;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    font-family:  Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+
+}
+.feat1{
+    padding: 20px 1%;
+    font-size: 26px;
+    display: flex;
+    font-family:  Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+.row1{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        padding: 120px 0;
+    
+}.text1{
+    flex-basis: 100%;
+    padding: 12% 46px;
+    margin-bottom: 15px;
+    font-family:  Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+.img-ab{
+    flex-basis: 125%;
+    margin-bottom: 20px;
+
+}
+.img-ab img{
+    width: 85%;
+    margin: auto;
+    padding-left: 87px;
+}
+.head h2{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 51px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+
+}
+.faq{
+    display: flex;
+    text-align: center;
+}
+.acc{
+    margin: 14px auto;
+    width: 100%;
+    max-width: 78%;
+}.acc li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+.com{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.acc li label{
+    display: flex;
+    align-items: center;
+    padding: 24px;
+    font-size: 23px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+}label::after{
+    content: ' + ';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.5s;
+}
+input[type = "radio"]{
+    display: none;
+}
+.acc .com {
+    background: #303030;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s,padding 0.5s;
+}
+.acc input[type = "radio"]:checked + label +.com{
+    max-height:fit-content;
+    padding: 30px 20px;
+}
+.acc input[type = "radio"]::after :checked
+
+.acc input[type="radio"]:checked + label::after{
+    transform: rotate(135deg);
+}h3{
+    display: flex;
+    padding: 1.5rem;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+   
+}.email1{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    fill: currentcolor;
+    padding: 2px;
+    width: 40%;
+    -webkit-box-align: center;
+    display: inline-flex;
+    gap: 2px;
+    position: relative;
+    text-align: left;
+    left: 30%;
+    margin-bottom: 3.5%;
+    
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+
+}.email1 input{
+    line-height: 1.5rem;
+    transition: color 250ms cubic-bezier(0.5, 0, 0.1, 1) 0s;
+    width: 100%;
+    color: white;
+    padding: 1.3rem 1rem 0.5rem;
+    background: transparent;
+    background-clip: padding-box;
+    border: 1px solid gray;
+    border-radius: 6px;
+    text-rendering: auto;
+    text-indent: 0px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    display: inline-block;
+    cursor: text;
+    font-size: 16px;
+    
+    
+}
+.email1 button{
+   background: red;
+   border: 0;
+   width: 290px;
+   outline: 0;
+   color: #fff;
+   font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;;
+   font-size: 24px;
+   font-weight: 600;
+   cursor: pointer;
+   border-radius: 5px;
+   margin-left: 2%;
+   
+
+}
+.foot{
+    padding: 62px 12% 10px;
+    border-top: 0px solid #333;
+    color: rgba(255,255,255,0.7);
+}
+.foot h2{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.foot .col{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+.foot .col a {
+    display: flex;
+    text-decoration: underline;
+    color: rgba(255,255,255,0.7);
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.foot .row2{
+    display:flex ;
+    align-items: flex-start;
+    padding: 10px 0;
+}
+.drop-btn1{
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    color: white;
+    border: 1px solid gray;
+    padding: 8px 11px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;;
+    margin-left: 12%;
+    min-width: auto;
+    width: 7%;
+    font-size: 16px;
+    font-weight: 400;
+    padding-right: 2rem;
+    line-height: 1.25rem;
+    padding-left: 1rem;
+    padding-bottom: 0.375rem;
+    padding-top: 0.375rem;
+    border-radius: 5px;
+
+}
+.drop-btn1 img{
+    width: 8px;
+    margin-left: 12px;
+    margin-right: 6px;
+    
+}
+.last h4{
+    margin-left:12%;margin-top:1.8rem;
+     font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+   font-size: 14px;
+   font-weight: 400;
+   color: rgba(255,255,255,0.7);
+   margin-bottom: 8%;
+}
+
+@media only screen and (max-width:600px){
+    .logo{
+        width: 100px;
+    }
+    nav button {
+        padding: 5px 10px;
+    }
+    nav.drop-btn{
+        padding: 4px 8px;
+    }
+    .header1{
+        position: unset;
+        transform: none;
+        padding-top: 150px;
+
+    }
+    .header1 h1{
+        font-size: 30px;   
+     }
+    
+     .email{
+        width: 100%;
+        bottom: 8%;
+     }
+     .idk hr{
+        display: none;
+    
+    
+     }
+     .text{
+        flex-basis: 100%;
+
+
+     }
+     .video-wrapper{
+        margin-top: 20%;
+        padding-top: 10%;
+        width: auto;
+        padding-left: 40%;
+     }
+     .feat h2{
+        font-size: 30px;
+
+     }
+     .feat p{
+        font-size: 15px;
+     }
+     .row:nth-child(2), .row:nth-child(4){
+        flex-direction: column-reverse;
+     }
+     .row{
+        object-position: 2px 8px;
+     }
+     .img-a img{
+        max-width: 400;
+        max-height: 250;
+        object-position: -2px -37px;
+        
+        
+     }.feat1 h2{
+        font-size: 30px;
+        margin-bottom: 10%;
+
+     }
+     .feat1 p{
+        font-size: 16px;
+     }
+     .feat1 {
+        display:block;
+     }
+     .img-ab{
+        margin-top: -70px;
+        margin-bottom: -10px;
+     }
+    .head h2{
+        font-size: 30px;
+        text-align: center;
+    }
+   .ab{
+    font-size: 16px;
+   }
+   .email1{
+    width: 80%;
+    margin-left: -70px;
+ }
+ .email1 button{
+    width: 65%;
+    font-size: 20px;
+ }.drop-btn1{
+    width: auto;
+ }
+     
+     
+    
+
+     
+     
+     
+}
